@@ -1,0 +1,18 @@
+{
+  "name": "apis",
+  "version": "0.0.0",
+  "authors": [
+    "Vinicius Reis <luiz.vinicius73@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Flowtime.js": "flowtime#*"
+  }
+}
