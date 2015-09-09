@@ -13,6 +13,8 @@
     "tests"
   ],
   "dependencies": {
-    "Flowtime.js": "flowtime#*"
+    "bootstrap": "~3.3.5",
+    "Flowtime.js": "flowtime#*",
+    "font-awesome": "fontawesome#~4.4.0"
   }
 }

@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+}
+body, .main-cover{
+	background-image: url("img/code-bg.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
