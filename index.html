@@ -17,6 +17,7 @@
                     <div class="stack-center">
                         <div class="stacked-center">
                             <h1><strong>Desenvolvimento de APIs</strong></h1>
+                            <h2>Não é apenas "cuspir" JSON</h2>
                         </div>
                     </div>
                     <!-- /.stack-center -->
@@ -152,6 +153,56 @@
                   <p><strong>Client</strong> quem esta acessando o recurso <small>(navegador, apps, IoT, desktop, etc)</small></p>
                   <p>Observação importante: <br>
                      <small>nem todo client tem a capacidade/facilidade de enviar/armazenar cookies/session esse é um dos motivos que APIs REST não usam cookies e afins.</small></p>
+                </div>
+                <!-- /.ft-page -->
+
+                <div class="ft-page" data-title="Recursos e Previsibilidade">
+                  <h1>Recursos e Previsibilidade</h1>
+                  <p><small>Uma boa API <strong>deve</strong> ser previsivel usando os verbos http corretamente.</small></p>
+                  <div class="row">
+                    <div class="col-50 ft-fragment shy">
+                      <dl>
+                        <dt><strong>GET</strong> /users</dt>
+                        <dd><small>Recuperar uma coleção de registros do recurso</small></dd>
+                        <dt><strong>POST</strong> /users</dt>
+                        <dd><small>Criar novo registro no recurso</small></dd>
+                        <dt><strong>GET</strong> /users/73 </dt>
+                        <dd><small>Recuperar um registro específico do recurso</small></dd>
+                        <dt><strong>PUT</strong> /users/73</dt>
+                        <dd><small>Atualizar um registro específico do recurso</small></dd>
+                        <dt><strong>DELETE</strong> /users/73</dt>
+                        <dd><small>Remover um registro específico do recurso</small></dd>
+                      </dl>
+                    </div>
+                    <div class="col-50 ft-fragment">
+                      <dl>
+                        <dt><strong>GET</strong> /users/73/questions</dt>
+                        <dd><small>Recuperar uma coleção de registros de um sub-recurso</small></dd>
+                        <dt><strong>POST</strong> /users/73/questions</dt>
+                        <dd><small>Criar novo registro no sub-recurso</small></dd>
+                        <dt><strong>GET</strong> /users/73/questions/12 </dt>
+                        <dd><small>Recuperar um registro específico do sub-recurso</small></dd>
+                        <dt><strong>PUT</strong> /users/73/questions/12</dt>
+                        <dd><small>Atualizar um registro específico do sub-recurso</small></dd>
+                        <dt><strong>DELETE</strong> /users/73/questions/12</dt>
+                        <dd><small>Remover um registro específico do sub-recurso</small></dd>
+                      </dl>
+                    </div>
+                    <div class="col-50 ft-fragment shy">
+                      <dl>
+                        <dt><strong>GET</strong> /questions</dt>
+                        <dd><small>Recuperar uma coleção de registros do recurso</small></dd>
+                        <dt><strong>POST</strong> /questions</dt>
+                        <dd><small>Criar novo registro no recurso</small></dd>
+                        <dt><strong>GET</strong> /questions/12 </dt>
+                        <dd><small>Recuperar um registro específico do recurso</small></dd>
+                        <dt><strong>PUT</strong> /questions/12</dt>
+                        <dd><small>Atualizar um registro específico do recurso</small></dd>
+                        <dt><strong>DELETE</strong> /questions/12</dt>
+                        <dd><small>Remover um registro específico do recurso</small></dd>
+                      </dl>
+                    </div>
+                  </div>
                 </div>
                 <!-- /.ft-page -->
 

@@ -1,12 +1,30 @@
-body{
+body {
 	margin: 0;
 }
-body, .main-cover{
+
+body, .main-cover {
 	background-image: url("img/code-bg.jpg");
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 
-a{
+a {
 	text-decoration: none;
+}
+
+.small {
+  font-size: 0.9em;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+}
+
+.col-50.ft-fragment.revealed.shy {
+  display: none;
+}
+
+.col-50.ft-fragment.revealed.shy.actual {
+  display: block;
 }
