@@ -28,3 +28,11 @@ a {
 .col-50.ft-fragment.revealed.shy.actual {
   display: block;
 }
+
+.text-center {
+  text-align: center;
+}
+
+#final {
+  margin: auto; 
+}
